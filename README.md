@@ -1,12 +1,12 @@
 # KaplanAutomation
 This is a Java-based Selenium TestNG framework that automates the following test cases:
 
-## DemoQA Tests:
+## DemoQA Test cases:
 - Nested Frames
 - Alerts
 - Drag and Drop
 - Browser Windows
-## Flipkart Test:
+## Flipkart Test cases:
 - Hover on the Fashion section.
 - Hover on the Kids subsection and click on "Boys & Girls Jeans".
 - Select the Price-Low to High in the Sort By section.
@@ -16,16 +16,14 @@ This is a Java-based Selenium TestNG framework that automates the following test
 - Verify the price and name of the item in the checkout page matches with the one we had before adding the item.
 
 ### How to Run
-Requirements: 
-- Java JDK
-- Maven
-- Chrome browser
-- ChromeDriver placed here "C:\\Drivers\\chromedriver.exe"
-  
-1. Install Java and Maven
-2. Clone this repo: git clone https://github.com/PJeevitha/KaplanAutomation.git
-3. Navigate to the project directory: cd KaplanAutomation
-4. Run tests with: mvn clean test
-5. To run a specific suite:
-   - mvn clean test -DsuiteXmlFile=testng-demoQA.xml
-   - mvn clean test -DsuiteXmlFile=testng-flipkart.xml
+**1. Clone the repository:** git clone https://github.com/PJeevitha/KaplanAutomation.git
+
+**2. Open the project in IntelliJ:** File → New → Project from Version Control → Git → Paste the repo link
+
+**3. Set Java SDK:** File → Project Structure → Project SDK → Select Java 8 or 11
+
+**4. Keep your ChromeDriver in this path:** "C:\\Drivers\\chromedriver.exe"
+
+**5. To run DemoQA tests, run this testNG:** testng-demoQA.xml
+
+**6. To run Flipkart automation tests, run this testNG:** testng-flipkart.xml
