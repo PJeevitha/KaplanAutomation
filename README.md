@@ -27,5 +27,5 @@ Requirements:
 3. Navigate to the project directory: cd KaplanAutomation
 4. Run tests with: mvn clean test
 5. To run a specific suite:
-mvn clean test -DsuiteXmlFile=testng-demoQA.xml
-mvn clean test -DsuiteXmlFile=testng-flipkart.xml
+   - mvn clean test -DsuiteXmlFile=testng-demoQA.xml
+   - mvn clean test -DsuiteXmlFile=testng-flipkart.xml
